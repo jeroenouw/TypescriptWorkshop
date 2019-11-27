@@ -1,0 +1,20 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.0",
+  "repository": "https://github.com/jeroenouw/TypeScriptWorkshop",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "bin": {
+    "saxum": "bin/saxum"
+  },
+  "scripts": {
+    "start": "npm run build && npm run global",
+    "build": "tsc -p .",
+    "global": "npm i -g && saxum",
+    "clean": "rm -rf ./node_modules ./package-lock.json ./lib",
+    "reset": "npm run clean && npm install"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14"
+  }
+}
