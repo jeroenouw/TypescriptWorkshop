@@ -1,6 +1,6 @@
 # TypeScript Workshop
 
-## Beginner
+## Bonus (JS to TS mini migration)
 
 ### Serve
 

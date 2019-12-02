@@ -8,8 +8,9 @@
     "saxum": "bin/saxum"
   },
   "scripts": {
-    "start": "npm run global",
-    "global": "sudo npm i -g && saxum",
+    "start": "npm run build && npm run global",
+    "build": "tsc -p .",
+    "global": "npm i -g && saxum",
     "clean": "rm -rf ./node_modules ./package-lock.json ./lib",
     "reset": "npm run clean && npm install"
   },
