@@ -17,8 +17,8 @@ npm install
 npm start
 
 ```
-<!-- TODO: SOLUTIONS IN BRANCH STOPPEN VAN ADVANCED EN BEGINNER -->
-<!-- TODO: ALLES TESTEN EN NALOPEN -->
+
+To run the right part, please comment out the specific part in `src/index.ts`.  
 
 ### Part 1 
 * Decorators for classes
@@ -45,6 +45,7 @@ Follow instructions in `src/03.ts`
 
 ### Part 4
 * Decorators for parameters
+* Make a parameter decorator that updates the person to UPPERCASE.
 
 Follow instructions in `src/04.ts`
 

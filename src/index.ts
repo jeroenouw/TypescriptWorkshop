@@ -10,6 +10,6 @@ part1();
 // import part3 from './03';
 // part3();
 
-// ======== part 4: Advanced ========
+// ======== part 4: Parameter decorators ========
 // import part4 from './04';
 // part4();
