@@ -13,6 +13,9 @@ npm i -g typescript
 # To install all dependencies
 npm install
 
+# To run/start (to skip warning/errors, please comment out the other sections)
+npm start
+
 ```
 
 To run the right part, please comment out the specific part in `src/index.ts`.  
