@@ -18,3 +18,6 @@ console.log('Saxum TypeScript workshop!');
 
 
 // Generics
+
+
+// Decorators
