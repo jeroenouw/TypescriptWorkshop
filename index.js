@@ -5,7 +5,7 @@ console.log('Saxum TypeScript workshop!');
 // Variables
 
 
-// Types
+// Types (+ union)
 
 
 // Interfaces
