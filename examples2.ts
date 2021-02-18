@@ -3,43 +3,69 @@
 interface Person2 {
   name: string,
   age: number,
-  employeed: boolean
+  employeed: boolean,
 }
 
 // Partial
-function displayType2(arguments) {
-  console.log(arguments);
-}
+// function displayType2(arguments: Partial<Person2>) {
+//   console.log(arguments);
+// }
 
-displayType2({});
+// displayType2({name: 'Jeroen'});
 
 
 // Required
+// function displayType2(arguments: Required<Person2>) {
+//   console.log(arguments);
+// }
 
+// displayType2({name: 'Jeroen', age: 26, employeed: true});
 
 // Readonly
-
+// function displayType2(arguments: Readonly<Person2>) {
+//   console.log(arguments);
+// }
 
 // Pick
-
+// function displayType2(arguments: Pick<Person2, 'name' | 'age'>) {
+//   console.log(arguments);
+// }
 
 // Omit
+// function displayType2(arguments: Omit<Person2, 'employeed'>) {
+//   console.log(arguments);
+// }
 
-
-// Record
-// let person = {
-//   0: { name: 'Jeroen', age: 26, employeed: true }
+// 
+// type Person = Record<string, unknown>;
+// const person2: Person = { 
+//   'abc': { name: 'Jeroen', age: 26, employeed: true },
+//   'def': { name: 'Jeroen', age: 26, employeed: true },
+//   '3': { name: 'Jeroen', age: 26, employeed: true },
 // }
 
 // NonNullable
-
+// type Temp = NonNullable<string | number | undefined | null>;
 
 // Extract
-// type ExtractCustom =
+
+
+// type ExtractCustom = Extract<keyof E, keyof F>;
 
 
 // Exclude
-// type ExcludeCustom =
+// type E = {
+//   a: string,
+//   b: string,
+//   c: string,
+// }
+// type F = {
+//   b: string,
+//   c: string,
+//   d: string,
+// }
+
+// type ExcludeCustom = Exclude<keyof E, keyof F>;
 
 // ReturnType
-// type ReturnTypeCustom =
+// type ReturnTypeCustom = ReturnType<() => string | number>
