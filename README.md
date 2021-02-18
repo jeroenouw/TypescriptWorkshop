@@ -1,1 +1,1 @@
-# TypeScript Workshop Demo
+# TypeScript Advanced Demo V2
