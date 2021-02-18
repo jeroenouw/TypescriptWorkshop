@@ -1,6 +1,6 @@
 //// 1 Refreshment (basics)
 
-interface Person {
+interface Person1 {
   name: string,
   age: number,
   employeed: boolean

@@ -1,6 +1,6 @@
 //// 4 Some new features
 
-interface Person {
+interface Person4 {
   name: string,
   age: number,
   employeed: boolean,

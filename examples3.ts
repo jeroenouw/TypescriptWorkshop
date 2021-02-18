@@ -1,6 +1,6 @@
 //// 3 Build your own types / conditional types (advanced)
 
-interface Person {
+interface Person3 {
     name: string,
     age: number,
     employeed: boolean

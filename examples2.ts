@@ -1,6 +1,6 @@
 //// 2 Default/Utility types (medium/advanced)
 
-interface Person {
+interface Person2 {
   name: string,
   age: number,
   employeed: boolean
