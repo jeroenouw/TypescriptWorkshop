@@ -1,5 +1,5 @@
 // Compiler examples
-console.log('Saxum TypeScript workshop!');
+console.log('TypeScript workshop!');
 
 
 // Variables
@@ -19,5 +19,3 @@ console.log('Saxum TypeScript workshop!');
 
 // Generics
 
-
-// Decorators
